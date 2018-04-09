@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+#question {
+    /* margin-top: 5px;  */
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    /* background-color: #74AFAD; */
+    color: #00bfa5;
+    text-align: center;
+}
+
+#question h1 {
+    font-size: 50px;
+}
+
+.answers {
+    text-align: center;
+    margin: auto;
+    /* width: 100%; */
+    display: inline;
+}
+ 
+.answers table {
+    text-align: center;
+    font-size: 35px;   
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.answers td {
+    /* float: left; */
+    border: 1px solid #bbdefb;
+    background-color: #f3e5f5;
+    height: 70px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 10px;
+}
+
+.answers td.variant:hover {
+    background-color: #ffd740;
+    border: 1px solid #eeff41;
+    /* #f06292; */
+} 
+
+/* .content {
+    display: inline;
+} */
+
+img {
+    margin-top: 70px; 
+    margin-left: 180px;
+    
+    /* padding-left: 60px;
+    padding-right: 60px; */
+}
+
+.score h1 {
+    /* display: inline; */
+    font-size: 70px;
+    margin-left: 200px;
+    color: #f06292;
+    padding: 5px;
+    /* padding-left: 60px;
+    padding-right: 60px; */
+}
+
+.name h1 {
+    /* display: inline; */
+    font-size: 20px;
+    float: right;
+    /* margin-left: 150px; */
+    /* display: inline;
+
+    margin-left: 180px; */
+}
+
+.timer h1 {
+    color: #00bfa5;
+    font-size: 70px;
+    /* text-align: center; */
+    border: 1px solid black;
+    width: 20%;
+    margin-left: 700px;
+    margin-top: 20px;
+} 

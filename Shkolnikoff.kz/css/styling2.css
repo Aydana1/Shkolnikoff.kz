@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    margin-top: -40px;
+    background-color: #f3e5f5;
+    border-bottom: 1px solid #00bfa5;
+    /* #03a9f4; */
+}
+
+h1#choose {
+    margin-top: 30px;
+    color: #00bfa5;
+    float: left;
+    margin-left: 100px;
+}
+
+a {
+    margin-right: 100px;
+    font-size: 40px;
+    margin-top: 30px;
+    color: #00bfa5;
+    float: right;
+}
+
+img {
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+img.hero:hover {
+    opacity: 0.7;
+}
+
+.content h1 {
+    font-size: 20px;
+}
+
+/* button a{
+    color: #00bfa5;
+} */

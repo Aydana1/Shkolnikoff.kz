@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #f06292;
+}
+
+/* ---------------------- */
+#podium {
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 200px;
+    /* margin-right: 60px; */
+    /* text-align: center; */
+}
+
+#second {
+    margin-left: -450px;
+    margin-bottom: -510px;
+}
+
+#first {
+    margin-left: -80px;
+    margin-bottom: -240px;
+}
+
+#third {
+    margin-left: 300px;
+    margin-bottom: -155px;
+}
+
+.content {  
+    width: 80%;
+}
+
+
+@media (max-width: 800px) {
+    .container, img {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    #podium {
+        max-width: 700px;
+    }
+} 
